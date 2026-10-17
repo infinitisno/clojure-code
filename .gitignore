@@ -1,0 +1,29 @@
+# devshell state
+/.data/*
+
+# pre-commit configuration
+/.pre-commit-config.yaml
+
+# direnv customization
+/.envrc.local
+
+# local environment
+/.env
+
+# nix build symlinks
+/result
+
+# nix build symlinks
+/result-*
+
+# nixos test VM
+/*-efi-vars.fd
+
+# generated SOPS configuration
+/.sops.yaml
+
+# generated documentation
+/docs/generated
+
+# mdbook generated website
+/book
